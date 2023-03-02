@@ -1,0 +1,168 @@
+.container1 {
+  background-image: url("../assets2/countries.png");
+  background-blend-mode: difference;
+  background-size: contain;
+  width: 100vw;
+  height: 200vh;
+  background-color: #c2cae8;
+}
+
+.Nav {
+  margin-top: 0px;
+  display: flex;
+  position: relative;
+  top: 0px;
+  background-color: #8593ff;
+  margin-bottom: 5px;
+  margin-right: 6px;
+}
+
+.all-button {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  border: none;
+  background-color: #8593ff;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.all-button:hover {
+  background-color: #5f61ab;
+}
+.orden-button {
+  display: contents;
+  padding: 10px;
+  text-align: center;
+}
+
+.orden-az {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #8593ff;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.orden-az:hover {
+  background-color: #5f61ab;
+}
+.pop-orden {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #8593ff;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.pop-orden:hover {
+  background-color: #5f61ab;
+}
+.continent-orden {
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  background-color: #8593ff;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.continent-orden:hover {
+  background-color: #5f61ab;
+}
+
+.create-button {
+  padding: 14px;
+  margin-top: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #8593ff;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.create-button:hover {
+  background-color: #5f61ab;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.country-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  justify-content: space-between;
+}
+
+.container-card {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background-color: #8593ff;
+  cursor: pointer;
+}
+
+.container-card:hover {
+  background-color: #5f61ab;
+}
+
+.image-card {
+  height: 224px;
+  width: 320px;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.name {
+  font-weight: 400;
+}
+
+.more-button {
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  margin-left: 15vw;
+  margin-bottom: 3px;
+  background-color: #8593ff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 500;
+}
+.more-button:hover {
+  background-color: #5f61ab;
+}

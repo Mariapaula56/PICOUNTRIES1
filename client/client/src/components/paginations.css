@@ -1,0 +1,33 @@
+.pagination {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 37vw;
+}
+
+.page-link {
+  text-decoration: none;
+  color: #4e148c;
+  border: 2px solid #858ae3;
+  border-radius: 6px;
+  background-color: #9dabed;
+}
+.page-link:hover {
+  background-color: #858ae3;
+}
+
+ul.pagination li.page-item.active a.page-link {
+  color: #4e148c;
+  border-radius: 4px;
+  float: inline-start;
+}
+
+ul.pagination a.page-link {
+  padding: 0.75rem 1rem;
+}
+ul.pagination a.page-link:hover {
+  background-color: #858ae3;
+  border-radius: 4px;
+}

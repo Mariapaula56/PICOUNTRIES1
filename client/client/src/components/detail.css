@@ -1,0 +1,67 @@
+.container2 {
+  background-image: url("../assets2/countries.png");
+  background-blend-mode: difference;
+  background-size: contain;
+  width: 100vw;
+  height: 200vh;
+  background-color: #c2cae8;
+}
+.detail {
+  padding: 15px;
+}
+
+.country-detail {
+  flex-wrap: wrap;
+  background-color: #8593ff;
+  border-radius: 6px;
+  width: 33%;
+  justify-content: center;
+  margin-left: 30vw;
+}
+
+.name1 {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: aliceblue;
+  text-align: center;
+}
+.flag-detail {
+  height: 224px;
+  width: 320px;
+}
+.image-detail {
+  margin-top: 50px;
+  width: 200px;
+}
+
+.text-detail {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: aliceblue;
+
+  flex-direction: initial;
+  justify-content: space-between;
+}
+.back-button {
+  margin-top: 80px;
+  padding: 8px;
+  cursor: pointer;
+  border: 2px solid aliceblue;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  background-color: #8593ff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.back-button:hover {
+  background-color: #5f61ab;
+}
+.loading {
+}

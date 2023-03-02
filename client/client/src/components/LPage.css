@@ -1,0 +1,33 @@
+.container {
+  background-image: url("../assets/countries.png");
+  background-blend-mode: darken;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c2cae8;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.buttonContainer {
+  background-color: #8380b6;
+  padding: 25px 35px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #3e3c68;
+  cursor: pointer;
+}
+
+.buttonContainer:hover {
+  background-color: #5f61ab;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
